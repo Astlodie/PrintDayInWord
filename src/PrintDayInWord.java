@@ -2,23 +2,23 @@
 public class PrintDayInWord {
 public static void main(String[] args) {
 	int dayNumber=0;
-		switch (dayNumber) {
+	switch (dayNumber) {
 	case 1:
 	System.out.println("Sunday");
 	case 2:
-		System.out.println("Monday");
+	System.out.println("Monday");
 	case 3:
-		System.out.println("Tuesday");
+	System.out.println("Tuesday");
 	case 4:
-		System.out.println("Wednesday");
+	System.out.println("Wednesday");
 	case 5:
-		System.out.println("Thursday");
+	System.out.println("Thursday");
 	case 6:
-		System.out.println("Friday");
+	System.out.println("Friday");
 	case 7:
-		System.out.println("Saturday");
+	System.out.println("Saturday");
 	default:
-		System.out.println("Not a valid day");
+	System.out.println("Not a valid day");
 				}
 	}
 
