@@ -1,7 +1,7 @@
 
 public class PrintDayInWord {
 public static void main(String[] args) {
-	int dayNumber=5;
+	int dayNumber=0;
 	switch (dayNumber) {
 	case 1:
 	System.out.println("Sunday");
@@ -26,7 +26,6 @@ public static void main(String[] args) {
 	break;
 	default:
 	System.out.println("Not a valid day");
-				}
-	}
-
+}
+}
 }
